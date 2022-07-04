@@ -1,9 +1,8 @@
-import React from "react";
 import { MenuOption } from "./Types";
 
-interface MenuOptionProps {
+type MenuOptionProps = {
   menuOptions: MenuOption[];
-}
+};
 
 const MenuList = ({ menuOptions }: MenuOptionProps): JSX.Element => (
   <>
