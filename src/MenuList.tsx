@@ -4,7 +4,7 @@ type MenuOptionProps = {
   menuOptions: MenuOption[];
 };
 
-const MenuList = ({ menuOptions }: MenuOptionProps): JSX.Element => (
+const MenuList = ({ menuOptions }: MenuOptionProps) => (
   <>
     {menuOptions.length > 0 &&
       menuOptions.map((menuOption: MenuOption) => (

@@ -46,13 +46,13 @@ export default function App() {
 
   const TabOne: Tab<MenuOption[]> = {
     id: 2,
-    label: "TabOne",
+    label: "Single Object Tab",
     menuOptions: lists
   };
 
   const TabTwo: Tab<Array<MenuOption[]>> = {
-    id: 3,
-    label: "TabTwo",
+    id: 1,
+    label: "Group Option Tab",
     menuOptions: groupOptions
   };
 
