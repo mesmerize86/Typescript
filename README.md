@@ -1,2 +1,2 @@
-# Typescript
+# GenericTypes
 Created with CodeSandbox
